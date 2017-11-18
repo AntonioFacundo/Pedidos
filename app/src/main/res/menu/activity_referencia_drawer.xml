@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Pedidos en proceso" />
+        <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Hacer pedido" />
+        <item
+            android:id="@+id/nav_agregar_producto"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Agregar producto" />
+        <item
+            android:id="@+id/salir"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Salir" />
+
+    </group>
+
+    <item android:title="Informes">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Sobre La Azteka Bakery" />
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Ubicación" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Creador" />
+        </menu>
+    </item>
+
+</menu>
